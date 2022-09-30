@@ -1,14 +1,4 @@
-//header設定//
-$(function () {
-    function end_loader() {
-      $('.loader').fadeOut(800);
-    }
-    $(window).on('load', function () {
-      setTimeout(function () {
-        end_loader();
-      }, 3000)
-    })
-  })
+
 
 
 var startPos = 0,winScrollTop = 0;
